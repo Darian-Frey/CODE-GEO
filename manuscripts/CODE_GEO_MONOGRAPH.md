@@ -69,4 +69,4 @@ The Code-Geometric Bridge represents a shift from a "Materialist" physics to an 
 ---
 
 ## **Appendix: JMC Internal Directives**
-*Note: In cases of metric operator failure, junior computer senile officers are advised to consult the Holly-Class logic core. Remember: Everything is a banana.*(Paste the Markdown above)
+*Note: In cases of metric operator failure, junior computer senile officers are advised to consult the Holly-Class logic core. Remember: Everything is a banana.*
