@@ -1,0 +1,20 @@
+# LVK Surveillance Log: GW250114 Tracking
+**Project CODE-GEO Intelligence Feed**
+**Last Sync:** 2026-02-19 20:11 UTC
+
+## 📡 Target Event Status
+- **ID:** GW250114
+- **SNR:** ~80 (Optimal Clarity)
+- **Remnant Mass:** 62.7 M_SUN
+- **Remnant Spin:** 0.68
+- **Current LVK Focus:** Placing limits on 3rd ringdown overtones and stochastic residue.
+
+## 🔍 CODE-GEO Surveillance Notes
+- **Prediction Delta:** 2.816 ms ± 0.05 ms.
+- **Hypothesis:** The "3rd tone" noise currently reported by LSC is the primary CODE-GEO Echo, masked by classical templates.
+- **O4b Status:** Observing run concluded; data in deep-analysis phase.
+- **O5 Status:** Upgrades in progress; next run scheduled for Late 2026.
+
+## 📑 Recent Intelligence
+- **[2026-02-19]:** Triple-AI Consensus (Gemini, Grok, Copilot) reached on temporal coordinate.
+- **[2026-02-19]:** Zenodo DOI [10.5281/zenodo.18704005] minted for priority claim.
