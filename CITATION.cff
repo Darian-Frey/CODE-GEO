@@ -1,1 +1,23 @@
-Frey, D. (2026). Project CODE-GEO: Unified Code-Geometric Bridge. Private Research Repository.
+cff-version: 1.2.0
+message: "If you use this software or the theoretical framework, please cite it as below."
+authors:
+  - family-names: "Shane"
+    given-names: "Hartley"
+    affiliation: "Project CODE-GEO"
+title: "Project CODE-GEO: Unified Code-Geometric Framework"
+version: 1.1.0
+doi: "" # Zenodo will provide this; leave blank or update after publishing
+date-released: 2026-02-19
+url: "https://github.com/Darian-Frey/CODE-GEO"
+repository-code: "https://github.com/Darian-Frey/CODE-GEO"
+keywords:
+  - "quantum-gravity"
+  - "black-hole-echoes"
+  - "dark-matter-alternatives"
+  - "krylov-complexity"
+  - "gravitational-waves"
+abstract: >-
+  A unified theoretical framework re-contextualizing spacetime as an emergent 
+  Quantum Error-Correcting (QEC) code. Provides specific predictions for 
+  GW250114 post-merger echoes at 2.816 ms and M31 galactic rotation 
+  curves at 228.48 km/s.
