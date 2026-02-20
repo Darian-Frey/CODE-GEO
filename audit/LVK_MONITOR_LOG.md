@@ -23,3 +23,5 @@
 - **Quantum Target:** 2.816 ms (Verified)
 - **Galactic Target:** 228.48 km/s @ 35kpc (Verified)
 - **Status:** All simulation tools are now frame-perfect and synced with the manuscript.
+- **Micro-Scale Target:** 1.57e-22 m Core Radius (Verified)
+- **Planck Jitter:** Stochastic Horizon Fluctuations (Active)
