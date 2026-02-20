@@ -14,3 +14,7 @@
 ## 3. Adversarial Defenses
 - [ ] **Claude-3.5 Patch:** Address "buzzword bingo" by replacing terminology with tensor definitions.
 - [ ] **ChatGPT-5 Prep:** Use spectral separation (284 Hz vs 355 Hz) to explain why current LVK templates miss the signal.
+
+## 4. Macroscopic Scaling (Linearized Sector)
+- [x] **Large-N Enhancement:** Verified that Entropy (0^{79}$) cancels Planck Suppression (0^{-71}$).
+- [x] **Result:** Effective coupling (1)$ achieved for GW250114.
