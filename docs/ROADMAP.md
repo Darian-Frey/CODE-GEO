@@ -23,3 +23,8 @@
 - [x] **Density Lock:** Complexity Density confirmed at 1.75e70 m^-2.
 - [x] **Scaling:** Planck-suppression is perfectly offset by Holographic Density.
 - [x] **Linearized Sector:** Ready for adversarial derivation.
+
+## 6. Horizon-Scale Paradigm Shift
+- [x] **Audit Result:** Linearized analysis confirms ms echoes require macroscopic layers.
+- [x] **Theoretical Pivot:** Move from 'Planck-thin' to 'Scrambling-Scale' Fuzzy Shell.
+- [x] **Mode Analysis:** Investigate Scalar-Longitudinal metric coupling.
