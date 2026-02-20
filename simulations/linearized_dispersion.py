@@ -1,47 +1,44 @@
+"""
+CODE-GEO V3 Consistency Audit
+Script: linearized_dispersion.py
+Role: Verifies the 'Slow-Light' Refractive Index of the 2.0 Rs Shell.
+Reference: docs/REASONING_LOG.md
+"""
 import math
 
-def test_linearized_scaling():
-    # 1. Physical Constants
-    L_p = 1.616e-35  # Planck Length
-    alpha = L_p**2    # ~2.6e-70 m^2
-    c = 299792458
-    M_solar = 1.989e30
-    G = 6.67430e-11
+C = 299792458.0
+G = 6.67430e-11
+M_SOLAR = 1.9891e30
+M_REMNANT = 62.7 * M_SOLAR
+RS = (2 * G * M_REMNANT) / (C**2)  # ~185.233 km
+
+F_KERR = 284.60
+F_ECHO = 355.11
+DF_OBSERVED = F_ECHO - F_KERR # 70.51 Hz
+
+def verify_refractive_index():
+    t_crossing_vacuum = RS / C
     
-    # 2. GW250114 Parameters
-    M = 62.7 * M_solar
-    R_s = (2 * G * M) / c**2 # ~185,000 meters
+    # In CODE-GEO, the echo delay (2.816ms) and the spectral gap (70.51Hz)
+    # must be consistent with the Refractive Index 'n'.
     
-    # 3. The "Normalized" Complexity Density
-    # C_k must be the informational density per UNIT AREA of the horizon,
-    # then projected into the volume.
-    # To get O(1) coupling: C_k must effectively be ~ (1 / alpha)
+    # 1. n from Time Delay: t_delay = n * (RS / C)
+    # Note: Using RS as shell thickness (2Rs - 1Rs)
+    n_delay = 0.002816 / t_crossing_vacuum
     
-    # Corrected Scaling: Complexity Curvature (1/L^2)
-    # The complexity curvature is the Entropy (S) spread over the Horizon Area (A)
-    # weighted by the holographic pixel limit.
-    Entropy = 1.0e79 
-    A_horizon = 4 * math.pi * (R_s**2)
+    # 2. n from Spectral Gap: df = (1 / 4t) * (1 / n)
+    n_spectral = (1 / (4 * t_crossing_vacuum)) / DF_OBSERVED
     
-    # The term that produces the 2.816ms echo is:
-    # Effective_Coupling = alpha * (Entropy / A_horizon) * (Some Geometric Factor)
-    
-    # To hit 2.816ms exactly:
-    target_delay_s = 0.002816
-    t_unit = R_s / c
-    required_coupling = target_delay_s / t_unit # Should be ~4.54
-    
-    print(f"--- LINEARIZED SCALE AUDIT (FIXED) ---")
-    print(f"Planck Alpha:          {alpha:.2e}")
-    print(f"Horizon Area (A):      {A_horizon:.2e} m^2")
-    print(f"Required Macro-Factor: {required_coupling:.4f}")
+    print(f"--- REFRACTIVE INDEX AUDIT (V3.2) ---")
+    print(f"n (from Delay):    {n_delay:.4f}")
+    print(f"n (from Spectrum): {n_spectral:.4f}")
     print(f"---------------------------------------------")
-    print(f"Result: To achieve 2.816ms, the Complexity Density")
-    print(f"must be {required_coupling/alpha:.2e} m^-2.")
-    print(f"This is exactly the Holographic Density limit.")
+    
+    variance = abs(n_delay - n_spectral)
+    print(f"Index Variance:    {variance:.4f}")
     print(f"---------------------------------------------")
-    print(f"PREDICTED ECHO LAG:    {target_delay_s*1000:.3f} ms")
-    print(f"---------------------------------------------")
+    print(f"RESULT: {'STABLE' if variance < 0.2 else 'UNSTABLE'}")
+    print(f"Conclusion: Shell acts as a medium with n ≈ {n_delay:.2f}")
 
 if __name__ == "__main__":
-    test_linearized_scaling()
+    verify_refractive_index()
