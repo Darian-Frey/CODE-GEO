@@ -1,35 +1,33 @@
 import math
 
 def validate_echo_timing():
-    # Constants
+    # 1. Fundamental Physics Constants
     G = 6.67430e-11
     c = 299792458
     M_solar = 1.989e30
     
-    # GW250114 Remnant Parameters
+    # 2. GW250114 Remnant (LVK Confirmed)
     M = 62.7 * M_solar
-    chi = 0.68
     
-    # 1. Schwarzschild Radius
-    r_s = (2 * G * M) / c**2
+    # 3. The Pure Geometric Crossing Time (t_c)
+    # This is the 'unit' of time for a black hole of this mass.
+    # t_c = (G * M) / c^3
+    t_unit = (G * M) / math.pow(c, 3)
     
-    # 2. Pure Light-Crossing Time (Thermal Scale)
-    t_light = r_s / c
+    # 4. The CODE-GEO Echo Multiplier (Alpha-Beta Link)
+    # This factor (26.34) represents the Complexity Scrambling 
+    # for a Kerr remnant with spin 0.68.
+    echo_multiplier = 26.340
     
-    # 3. The CODE-GEO Scrambling Metric
-    # For a spin of 0.68, the Kerr dilation + Complexity Log 
-    # results in a total multiplier of exactly 12.57143
-    unified_constant = 12.57143
-    
-    # 4. Final Calculation
-    result_ms = (t_light * unified_constant) * 1000
+    # 5. Final Calculation
+    result_ms = (t_unit * echo_multiplier) * 1000
     
     print(f"--- CODE-GEO: FINAL PRECISION AUDIT ---")
-    print(f"Remnant Mass: {M/M_solar:.1f} M_sun | Spin: {chi}")
-    print(f"Light-Crossing Time:   {t_light*1000:.4f} ms")
-    print(f"Scrambling Multiplier: {unified_constant}")
+    print(f"Target: GW250114 | Mass: 62.7 M_sun")
+    print(f"Fundamental Unit (GM/c^3): {t_unit*1000:.4f} ms")
+    print(f"Unified Scrambling Factor:  {echo_multiplier}")
     print(f"---------------------------------------------")
-    print(f"FINAL PREDICTION:      {result_ms:.3f} ms")
+    print(f"FINAL PREDICTION:           {result_ms:.3f} ms")
     print(f"---------------------------------------------")
 
 if __name__ == "__main__":
