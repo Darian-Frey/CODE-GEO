@@ -1,6 +1,6 @@
 # Project CODE-GEO: Final Verification Report (V3.0)
 **Date:** 2026-02-20
-**Project Lead:** PI Frey
+**Project Lead:** Shane Hartley
 **Hardware:** Latitude-5480 (Local Node)
 **System Status:** STABLE / CALIBRATED
 
