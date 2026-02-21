@@ -1,6 +1,6 @@
 # The Echo in the Machine
 **Subtitle:** How Quantum Complexity is Redefining the Black Hole  
-**Author:** Darian Frey  
+**Author:** Shane Hartley  
 **Date:** February 21, 2026  
 **Project:** CODE-GEO (V3.1)
 
@@ -100,7 +100,7 @@ This project stands on the foundational work of many researchers in the fields o
 
 ### 4. Technical Basis for CODE-GEO
 * **Parker, D. E., et al. (2019):** *A Universal Operator Growth Hypothesis* — The foundational math for **Krylov Complexity** used in our Hilbert-Complexity Action.
-* **Frey, D. (2026):** *Stochastic Metric Fluctuations and Quantum Complexity* — The CODE-GEO V3.1 Technical Whitepaper (available in this repository).
+* **Hartley, S. (2026):** *Stochastic Metric Fluctuations and Quantum Complexity* — The CODE-GEO V3.1 Technical Whitepaper (available in this repository).
 
 ---
 **Author Note:** All derivations were audited by the Council of AI (Grok, ChatGPT, Claude, Gemini) on Feb 20, 2026.
