@@ -36,7 +36,7 @@ Project CODE-GEO discovered that this scrambling has physical weight. As the bla
 ## Chapter 3: The Math of Resistance
 To explain why a black hole would "echo," we introduced the **Hilbert-Complexity Action**. We proposed that the fabric of space-time itself reacts to the amount of "computing power" required to describe the matter within it.
 
-![Hilbert-Complexity Action](assets/equations/action.svg)
+![Hilbert-Complexity Action](/action.svg)
 
 This isn't just a metaphor. By calculating the **Krylov Complexity**—a measure of how quantum states grow and tangle—we found that space becomes "clogged" near the black hole. This clogging creates a physical refractive index. Much like light bends when it enters water, gravitational waves reflect when they hit this wall of pure information.
 
