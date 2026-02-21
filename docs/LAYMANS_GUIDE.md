@@ -1,6 +1,6 @@
 # The Echo of the Void: Why Black Holes Might Have Mirrors
 **A Layman’s Guide to Project CODE-GEO**
-**Author:** Darian Frey
+**Author:** Shane Hartley
 **Date:** February 20, 2026
 
 ## The Mystery: The "One-Way" Trap
