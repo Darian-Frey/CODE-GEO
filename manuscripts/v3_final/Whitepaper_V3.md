@@ -1,5 +1,5 @@
 # Stochastic Metric Fluctuations and Quantum Complexity: A Unified Code-Geometric Bridge (V3)
-**Author:** Darian Frey
+**Author:** Shane Hartley
 **Date:** February 20, 2026
 **Version:** 3.0 (Post-Audit Calibration)
 
