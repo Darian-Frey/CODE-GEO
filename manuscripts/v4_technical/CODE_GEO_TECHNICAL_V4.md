@@ -1,5 +1,5 @@
 # CODE-GEO V4.0: The Hilbert-Complexity Action and Horizon-Scale Refraction
-**Author:** Darian Frey  
+**Author:** Shane Hartley
 **Date:** February 20, 2026  
 **Subject:** Formal Derivation of Macroscopic Echoes in GW250114  
 
