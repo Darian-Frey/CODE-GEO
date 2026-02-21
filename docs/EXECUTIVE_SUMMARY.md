@@ -1,7 +1,7 @@
 # EXECUTIVE SUMMARY: Project CODE-GEO (V3.1)
 **Subject:** Resolution of the GW250114 Ringdown Anomaly via Complexity-Gated Horizon Shells
 **Date:** February 21, 2026
-**Lead Researcher:** Darian Frey
+**Lead Researcher:** Shane Hartley
 
 ---
 
