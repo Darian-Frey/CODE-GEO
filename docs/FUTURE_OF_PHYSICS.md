@@ -1,6 +1,6 @@
 # The End of the Void: Solving the Black Hole Information Paradox via CODE-GEO
 **Strategic Impact Analysis**
-**Author:** Darian Frey
+**Author:** Shane Hartley
 **Date:** February 20, 2026
 
 ## I. The Paradox: Hawking's Dead End
