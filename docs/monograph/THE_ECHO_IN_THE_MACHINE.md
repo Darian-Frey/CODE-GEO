@@ -36,7 +36,7 @@ Project CODE-GEO discovered that this scrambling has physical weight. As the bla
 ## Chapter 3: The Math of Resistance
 To explain why a black hole would "echo," we introduced the **Hilbert-Complexity Action**. We proposed that the fabric of space-time itself reacts to the amount of "computing power" required to describe the matter within it.
 
-![Hilbert-Complexity Action](docs/monograph/action.svg)
+![Hilbert-Complexity Action](action.svg)
 
 This isn't just a metaphor. By calculating the **Krylov Complexity**—a measure of how quantum states grow and tangle—we found that space becomes "clogged" near the black hole. This clogging creates a physical refractive index. Much like light bends when it enters water, gravitational waves reflect when they hit this wall of pure information.
 
@@ -47,7 +47,7 @@ If black holes have giant mirrors around them, why haven't we seen them before? 
 
 Quantum complexity is like a non-Newtonian fluid—it stays liquid under low pressure but turns solid when hit hard. In a stable star system, the gravity is "soft," and the complexity remains suppressed. The shell stays in **Stealth Mode**, effectively invisible to our telescopes.
 
-![Nonlinear Gate](assets/equations/gate.svg)
+![Nonlinear Gate](gate.svg)
 
 It is only in the final, violent milliseconds of a merger—when two black holes collide and the "computational load" of the universe spikes—that the gate opens. The shell inflates almost instantly, reflecting the final "ringdown" of the collision back toward our detectors.
 
@@ -58,7 +58,7 @@ In the early hours of a 2025 detection (Event GW250114), the universe finally sp
 
 Imagine a bell ringing. In a vacuum, it rings once and fades. But if that bell is inside a mirrored room, you hear the **Echo.** By analyzing the remnant of a 62.7 solar mass collision, we identified a 70 Hz gap between the main signal and its ghost.
 
-![Spectral Gap](assets/equations/resonance.svg)
+![Spectral Gap](resonance.svg)
 
 This 2.816-millisecond delay is the exact time it takes for gravity to bounce off our predicted shell and return. It is the first time humanity has "heard" the sound of quantum gravity.
 
