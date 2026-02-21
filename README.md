@@ -67,7 +67,7 @@ For a deep dive into the reasoning and impact of the theory, refer to:
 ---
 
 ## ⚖️ License & Attribution
-**Author:** Darian Frey  
+**Author:** Shane Hartley (Darian Frey)  
 **Hardware:** Latitude-5480 Node  
 **Audit Status:** CALIBRATED (Feb 20, 2026)  
 *This project is an open-source contribution to the field of Macro-Quantum Gravity.*
