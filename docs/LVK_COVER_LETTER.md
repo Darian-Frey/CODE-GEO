@@ -2,7 +2,7 @@
 
 **To:** LIGO Scientific Collaboration (LSC), Virgo Collaboration, and KAGRA Collaboration  
 **Attn:** Data Analysis & Software (DAS) Working Group  
-**From:** Darian Frey (Project CODE-GEO)  
+**From:** Shane Hartley (Project CODE-GEO)  
 **Date:** February 19, 2026  
 
 ### Subject: Specific Temporal Coordinate for Post-Merger Echo in GW250114
