@@ -5,15 +5,15 @@
 ## 1. Mathematical Formalization
 - [x] **Alpha Coupling:** Derive $\alpha \approx 1.04 \times 10^{-71} \text{ m}^2$ from Planck Area.
 - [x] **Core Radius:** Formalize the cubic-root scaling via Volumetric Entropy Saturation.
-- [ ] **Entropy Flux:** Define the leakage rate as a function of Kerr surface gravity.
+- [x] **Entropy Flux:** Define the leakage rate as a function of Kerr surface gravity.
 
 ## 2. Empirical Alignment
 - [x] **GW250114 Echo:** Lock 2.816 ms prediction to the high-frequency SNR residue (~355 Hz).
 - [x] **M31 Rotation:** Maintain 228.48 km/s plateau using Entropic Drag potential.
 
 ## 3. Adversarial Defenses
-- [ ] **Claude-3.5 Patch:** Address "buzzword bingo" by replacing terminology with tensor definitions.
-- [ ] **ChatGPT-5 Prep:** Use spectral separation (284 Hz vs 355 Hz) to explain why current LVK templates miss the signal.
+- [x] **Claude-3.5 Patch:** Address "buzzword bingo" by replacing terminology with tensor definitions.
+- [x] **ChatGPT-5 Prep:** Use spectral separation (284 Hz vs 355 Hz) to explain why current LVK templates miss the signal.
 
 ## 4. Macroscopic Scaling (Linearized Sector)
 - [x] **Large-N Enhancement:** Verified that Entropy (0^{79}$) cancels Planck Suppression (0^{-71}$).
