@@ -81,4 +81,26 @@ The machines used to verify these claims are available in the open-source CODE-G
 The universe is a machine that leaves echoes in its wake. We have simply learned how to listen.
 
 ---
+
+## Suggested Reading & References
+
+This project stands on the foundational work of many researchers in the fields of General Relativity, Quantum Information, and Black Hole Thermodynamics. For those wishing to explore the deeper technical roots of CODE-GEO, we recommend the following:
+
+### 1. The Foundations of Black Hole Information
+* **Hawking, S. W. (1974):** *Black hole explosions?* — The original paper that proved black holes emit radiation, launching the Information Paradox.
+* **Susskind, L., Thorlacius, L., & Uglum, J. (1993):** *The Stretched Horizon and Black Hole Complementarity* — Established the idea that information is stored on a physical surface near the horizon.
+
+### 2. Holography & Complexity
+* **Susskind, L. (2018):** *Three Lectures on Complexity and Black Holes* — The definitive introduction to the idea that "Complexity equals Volume" and how it relates to black hole growth.
+* **Almheiri, A., et al. (2013):** *Black Holes: Complementarity or Firewalls?* — The paper that forced the physics community to reconsider the physical nature of the horizon.
+
+### 3. Gravitational Waves & Echoes
+* **Abbott, B. P., et al. (LIGO/Virgo Collaboration) (2016):** *Observation of Gravitational Waves from a Binary Black Hole Merger* — The discovery that made this entire field of empirical study possible.
+* **Maggio, E., et al. (2020):** *How does a dark compact object ring down?* — A critical analysis of how non-classical objects (like our Complexity Shell) would sound to our detectors.
+
+### 4. Technical Basis for CODE-GEO
+* **Parker, D. E., et al. (2019):** *A Universal Operator Growth Hypothesis* — The foundational math for **Krylov Complexity** used in our Hilbert-Complexity Action.
+* **Frey, D. (2026):** *Stochastic Metric Fluctuations and Quantum Complexity* — The CODE-GEO V3.1 Technical Whitepaper (available in this repository).
+
+---
 **Author Note:** All derivations were audited by the Council of AI (Grok, ChatGPT, Claude, Gemini) on Feb 20, 2026.
