@@ -1,6 +1,6 @@
 # The Unified Code-Geometric Framework: Spacetime as Emergent Quantum Error Correction
 
-**Lead Author:** Darian Frey  
+**Lead Author:** Shane Hartley
 **Collaborating AI:** Gemini (Protocol SCHEMA_V5)  
 **Affiliation:** Project CODE-GEO  
 **Date:** February 19, 2026  
