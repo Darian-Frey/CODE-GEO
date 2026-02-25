@@ -1,4 +1,7 @@
 # Project CODE-GEO (V3.1)
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18704006.svg)](https://doi.org/10.5281/zenodo.18704006)
+
 **Stochastic Metric Fluctuations & Quantum Complexity: A Unified Bridge**
 
 > "Spacetime is not a stage, but a quantum error-correcting output. Gravity is the cost of the computation."
