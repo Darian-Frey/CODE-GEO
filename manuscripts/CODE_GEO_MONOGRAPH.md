@@ -66,7 +66,3 @@ This drag force ensures that stellar velocities remain flat in the outer reaches
 ## **VI. Conclusion**
 The Code-Geometric Bridge represents a shift from a "Materialist" physics to an "Informational" physics. By acknowledging that the vacuum has a finite processing speed (latency) and a finite information density (complexity), we provide a unified solution to the most significant discrepancies in modern cosmology.
 
----
-
-## **Appendix: JMC Internal Directives**
-*Note: In cases of metric operator failure, junior computer senile officers are advised to consult the Holly-Class logic core. Remember: Everything is a banana.*
