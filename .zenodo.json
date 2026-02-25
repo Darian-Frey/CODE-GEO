@@ -1,0 +1,21 @@
+{
+    "title": "Project CODE-GEO (V3.1): Complexity-Originating Dimensional Emergence",
+    "description": "A unified mathematical framework re-contextualizing spacetime as a quantum error-correcting output. Includes derivations for the Hilbert-Complexity Action and empirical predictions for the 2.816 ms echo in GW250114.",
+    "creators": [
+        {
+            "name": "Hartley, Shane",
+            "affiliation": "Independent Researcher",
+            "email": "darian.frey@yahoo.com"
+        }
+    ],
+    "access_right": "open",
+    "license": "MIT",
+    "keywords": [
+        "General Relativity",
+        "Quantum Information",
+        "Krylov Complexity",
+        "Gravitational Waves",
+        "GW250114"
+    ],
+    "version": "3.1.0"
+}
