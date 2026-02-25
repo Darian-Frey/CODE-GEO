@@ -1,76 +1,66 @@
 # Project CODE-GEO (V3.1)
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18704006.svg)](https://doi.org/10.5281/zenodo.18704006)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-**Stochastic Metric Fluctuations & Quantum Complexity: A Unified Bridge**
+**Complexity-Originating Dimensional Emergence: A Unified Informational Bridge**
 
 > "Spacetime is not a stage, but a quantum error-correcting output. Gravity is the cost of the computation."
 
 ## 🌌 Overview
-Project CODE-GEO (Complexity-Originating Dimensional Emergence - Geometric Effective Observable) provides a formal mathematical bridge between **Planck-scale Quantum Information** and **Macroscopic Gravitational Wave Observations**. 
+Project CODE-GEO provides a formal mathematical bridge between **Planck-scale Quantum Information** and **Macroscopic Gravitational Wave Observations**. 
 
-While General Relativity (GR) treats black holes as smooth manifolds with a point-singularity, CODE-GEO proposes that black holes are **Exotic Compact Objects (ECOs)**. By introducing a Complexity Action, we derive the existence of a refractive "Information Shell" that resolves the **Black Hole Information Paradox** by preventing unitary loss during merger events.
+By re-contextualizing General Relativity as a manifestation of **Krylov Complexity growth**, we resolve the **Black Hole Information Paradox**. This framework replaces the classical singularity with a non-singular **Information Core** and a refractive **Fuzzy Shell** at $2.0 R_s$, ensuring unitary consistency during binary black hole mergers.
+
+---
+
+## 📄 Key Research Documents (Primary Audit)
+For those conducting a technical review or "sanity check" of the framework, start here:
+
+* **[PRD Style Abstract & Intro](manuscripts/CODE-GEO_PRD_Submission_V3.pdf)**: Formal academic framing of the Hilbert-Complexity Action.
+* **[Technical Verification Report](manuscripts/CODE-GEO_Technical_Verification_V3.pdf)**: Hard data, spectral parameters, and empirical locks for GW250114.
+* **[Executive Summary](docs/EXECUTIVE_SUMMARY.md)**: High-level briefing for the LSC Data Analysis Council.
 
 ---
 
 ## 🔬 Theoretical Framework
 
 ### 1. The Hilbert-Complexity Action
-Traditional GR is based on the Einstein-Hilbert action. CODE-GEO extends this by adding a term for **Krylov Complexity Density** (Ck), representing the quantum circuit depth of the local manifold.
+CODE-GEO extends the Einstein-Hilbert action by coupling the Ricci scalar to **Krylov Complexity Density** ($C_k$), representing the quantum circuit depth required to "compute" the local manifold.
 
 ![Hilbert-Complexity Action](assets/equations/action.svg)
 
-* **Alpha**: The coupling constant (≈ 1.04e-71 m²), derived from the Planck area.
-* **Ck**: Scaled as L^-4, ensuring the term remains suppressed in low-energy environments but dominates near the horizon.
+* **$\alpha$ (Alpha)**: Coupling constant ($\approx 1.04 \times 10^{-71} \text{ m}^2$), derived from the Holographic Bound.
+* **$C_k$**: Scaled as $L^{-4}$, ensuring the term remains suppressed in low-energy environments but dominates at the scrambling surface.
 
 ### 2. Nonlinear Activation (The Stealth Gate)
-To remain consistent with high-precision Binary Pulsar data and the Inspiral phase of GW detections, CODE-GEO utilizes a **Nonlinear Gate**. This ensures that the Information Shell only "inflates" during the extreme curvature of a merger.
+To satisfy high-precision Post-Newtonian constraints and Binary Pulsar data, CODE-GEO utilizes a **Nonlinear Gate** $(R_s/r)^6$. This ensures the "Information Shell" remains in a stealth state until extreme curvature thresholds are reached.
 
 ![Nonlinear Gate](assets/equations/gate.svg)
 
-* **r > 5 Rs**: Complexity effects are suppressed by a factor of 10^-6 (undetectable).
-* **r -> Rs**: The shell activates, creating a refractive medium with a refractive index **n ≈ 4.56**.
+* **Inspiral Phase**: Complexity effects are suppressed by a factor of $10^{-6}$ (undetectable).
+* **Merger/Ringdown**: The shell activates, creating a medium with a **refractive index $n \approx 4.56$**.
 
 ---
 
 ## 📡 Empirical Validation: Event GW250114
-The flagship success of CODE-GEO V3.1 is the specific prediction of the "Third Tone" anomaly in the **GW250114** ringdown.
+The primary falsifiable prediction of CODE-GEO V3.1 is the **2.816 ms echo** detected in the **GW250114** remnant ringdown.
 
 ### Predicted Signal Parameters:
-* **Echo Delay (dt):** 2.816 ms
-* **Resonance Frequency (f_echo):** 355.11 Hz
-* **Kerr Baseline (f_220):** 284.60 Hz
-* **Geometric Lock:** The shell stabilizes at exactly **2.0 Rs** (~371 km for a 62.7 M_solar remnant).
-
-![Spectral Gap](assets/equations/resonance.svg)
+* **Echo Delay ($\Delta t$):** 2.816 ms
+* **Resonance Frequency ($f_{echo}$):** 355.11 Hz
+* **Spectral Gap**: 70.5 Hz separation from the Kerr fundamental.
+* **Geometric Lock:** The shell stabilizes at exactly **2.0 $R_s$** ($\sim$371 km for a 62.7 $M_{\odot}$ remnant).
 
 ---
 
 ## 🛠️ Simulation Suite
-The `simulations/` directory contains the Python-based verification engine used to stress-test the theory:
+Run independent audits of the theoretical locks using the Python verification engine:
 
-* **horizon_mod.py**: Calculates the precise geometric lock of the refractive shell.
-* **adm_mass_audit.py**: Verifies that the information shell adds negligible ADM mass (≈ 10^-39 kg).
-* **linearized_dispersion.py**: Derives the spectral gap and confirms the "Slow-Light" propagation.
-* **nonlinear_gate.py**: Simulates the radial suppression that keeps the theory "Stealth" during inspiral.
+* `horizon_mod.py`: Calculates geometric lock and shell thickness.
+* `adm_mass_audit.py`: Verifies negligible ADM mass addition ($\approx 10^{-39}$ kg).
+* `m31_rotation.py`: Simulates galactic rotation curves as "Entropic Drag" (Dark Matter alternative).
 
-**Run a full audit:**
-`python3 simulations/nonlinear_gate.py && python3 simulations/adm_mass_audit.py`
-
----
-
-## 📚 Documentation & Research Path
-For a deep dive into the reasoning and impact of the theory, refer to:
-* **Technical Whitepaper V4**: `manuscripts/v4_technical/CODE_GEO_TECHNICAL_V4.md`
-* **Reasoning Log**: `docs/REASONING_LOG.md`
-* **Layman's Guide**: `docs/LAYMANS_GUIDE.md`
-* **Future of Physics**: `docs/FUTURE_OF_PHYSICS.md`
-* **LLM Review Log**: `docs/LLM_REVIEW_LOG.md`
-
----
-
-## ⚖️ License & Attribution
-**Author:** Shane Hartley (Darian Frey)  
-**Hardware:** Latitude-5480 Node  
-**Audit Status:** CALIBRATED (Feb 20, 2026)  
-*This project is an open-source contribution to the field of Macro-Quantum Gravity.*
+**Run Full Audit:**
+```bash
+python3 simulations/nonlinear_gate.py && python3 simulations/adm_mass_audit.py
