@@ -1,0 +1,60 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{geometry}
+\usepackage{hyperref}
+\usepackage{amsmath}
+\usepackage{booktabs}
+\usepackage{xcolor}
+
+\geometry{margin=1in}
+
+\title{\textbf{Project CODE-GEO: Proof of Work \& Digital Integrity}}
+\author{Shane Hartley \\ \texttt{darian.frey@yahoo.com}}
+\date{February 2026}
+
+\begin{document}
+
+\maketitle
+
+\section*{Overview}
+To ensure the immutability of the predictions contained within Project CODE-GEO—specifically the \textbf{2.816 ms echo} and the \textbf{355.11 Hz resonance}—this release has been cryptographically locked. This protocol prevents post-hoc adjustments to the theoretical framework following future LVK data releases.
+
+\section*{1. Universal Identifiers}
+\begin{itemize}
+    \item \textbf{Zenodo DOI:} \href{https://doi.org/10.5281/zenodo.18704006}{10.5281/zenodo.18704006}
+    \item \textbf{Version:} 3.1.0 (Feb 2026 Calibration)
+    \item \textbf{Repository:} \href{https://github.com/Darian-Frey/CODE-GEO}{github.com/Darian-Frey/CODE-GEO}
+\end{itemize}
+
+\section*{2. Cryptographic Fingerprints (SHA-256)}
+The following hashes represent the ``frozen'' state of the theory at the time of archival. These can be verified by running the \texttt{sha256sum} command against the downloaded files.
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{@{}llp{6cm}@{}}
+\toprule
+\textbf{Document / Script} & \textbf{SHA-256 Integrity Hash} & \textbf{Purpose} \\ \midrule
+\texttt{PRD\_Submission\_V3.pdf} & \texttt{eda3b3fd...9b84} & Formal Theoretical Foundation \\
+\texttt{Verification\_V3.pdf} & \texttt{3a0011b1...0974} & Empirical Data \& Spectral Table \\
+\texttt{SUMMARY.pdf} & \texttt{72c7620e...1b3a} & Briefing for LSC Academic Audit \\
+\texttt{echo\_simulator.py} & \texttt{db3e9cb6...ab4f} & 2.816 ms Delay Verification \\
+\texttt{horizon\_mod.py} & \texttt{26bb01ff...94c3} & Geometric Shell Stability Check \\ \bottomrule
+\end{tabular}
+\end{table}
+
+\section*{3. Replication Protocol}
+Independent researchers are invited to run the verification engine to reproduce the results directly from the Hilbert-Complexity Action derivation:
+
+\begin{verbatim}
+    git clone https://github.com/Darian-Frey/CODE-GEO.git
+    cd CODE-GEO/simulations
+    python3 echo_simulator.py --mass 62.7
+\end{verbatim}
+
+\vspace{1cm}
+\begin{center}
+    \textit{This document serves as a permanent record of the V3.1 theoretical lock.}
+\end{center}
+
+\end{document}
