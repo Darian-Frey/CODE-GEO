@@ -1,6 +1,6 @@
 # Project CODE-GEO (V3.1)
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18704006.svg)](https://doi.org/10.5281/zenodo.18704006)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18828511.svg)](https://doi.org/10.5281/zenodo.18828511)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 **Complexity-Originating Dimensional Emergence: A Unified Informational Bridge**
