@@ -2,7 +2,7 @@
 
 **Project Version:** 3.1.0 (Clean Build)  
 **Release Date:** March 2026  
-**Zenodo DOI:** [10.5281/zenodo.18704006](https://doi.org/10.5281/zenodo.18704006)  
+**Zenodo DOI:** [10.5281/zenodo.18828511](https://doi.org/10.5281/zenodo.18828511)  
 **Integrity Lock:** `MANIFEST.md` (Updated SHA-256)
 
 ---
