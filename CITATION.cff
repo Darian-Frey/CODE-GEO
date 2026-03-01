@@ -5,9 +5,9 @@ authors:
     given-names: "Hartley"
     affiliation: "Project CODE-GEO"
 title: "Project CODE-GEO: Unified Code-Geometric Framework"
-version: 1.1.0
-doi: "" # Zenodo will provide this; leave blank or update after publishing
-date-released: 2026-02-19
+version: 3.1.1
+doi: "10.5281/zenodo.18704006"
+date-released: 2026-03-01
 url: "https://github.com/Darian-Frey/CODE-GEO"
 repository-code: "https://github.com/Darian-Frey/CODE-GEO"
 keywords:
