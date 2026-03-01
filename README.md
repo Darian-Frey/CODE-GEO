@@ -14,9 +14,10 @@ By re-contextualizing General Relativity as a manifestation of **Krylov Complexi
 
 ---
 
-## 📄 Key Research Documents (Primary Audit)
+## 📂 Key Research Documents (Primary Audit)
 For those conducting a technical review or "sanity check" of the framework, start here:
 
+* **[Technical Whitepaper V3.1](manuscripts/TECHNICAL_WHITE_PAPER_V3.1.md)**: Formal mathematical coupling of alpha-Krylov complexity.
 * **[PRD Style Abstract & Intro](manuscripts/CODE-GEO_PRD_Submission_V3.pdf)**: Formal academic framing of the Hilbert-Complexity Action.
 * **[Technical Verification Report](manuscripts/CODE-GEO_Technical_Verification_V3.pdf)**: Hard data, spectral parameters, and empirical locks for GW250114.
 * **[Executive Summary](docs/EXECUTIVE_SUMMARY.md)**: High-level briefing for the LSC Data Analysis Council.
@@ -54,12 +55,13 @@ The primary falsifiable prediction of CODE-GEO V3.1 is the **2.816 ms echo** det
 
 ---
 
-## 🛠️ Simulation Suite
-Run independent audits of the theoretical locks using the Python verification engine:
+## 💻 Simulation Suite
+Run independent audits of the theoretical locks using the Python verification engine in the `simulations/` directory:
 
-* `horizon_mod.py`: Calculates geometric lock and shell thickness.
-* `adm_mass_audit.py`: Verifies negligible ADM mass addition ($\approx 10^{-39}$ kg).
-* `m31_rotation.py`: Simulates galactic rotation curves as "Entropic Drag" (Dark Matter alternative).
+* `simulations/echo_simulator.py`: Primary engine for calculating 2.816 ms delays.
+* `simulations/horizon_mod.py`: Calculates geometric lock and shell thickness.
+* `simulations/adm_mass_audit.py`: Verifies negligible ADM mass addition ($\approx 10^{-39}$ kg).
+* `simulations/support/m31_rotation.py`: Simulates galactic rotation curves as "Entropic Drag".
 
 **Run Full Audit:**
 ```bash
